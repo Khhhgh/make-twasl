@@ -1,7 +1,7 @@
 <?php
 
 ob_start();
-define('API_KEY','توكن');
+define('API_KEY','7672816252:AAF7WMsY2F4pBmodviKxyvdFHqg6kSJ-ftg');
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
 $ch = curl_init();
@@ -62,10 +62,10 @@ bot('sendMessage', [
 'reply_markup'=>json_encode([
       'inline_keyboard'=>[
         [
-          ['text'=>'📚 REAL 💎 BUSINESS ®', 'url'=>"https://telegram.me/set_web"]
+          ['text'=>'📚 REAL 💎 BUSINESS ®', 'url'=>"https://telegram.me/A_S_4A"]
         ],
          [
-          ['text'=>'TOUCH 💎' , 'url'=>"https://telegram.me/touch_t"]
+          ['text'=>'TOUCH 💎' , 'url'=>"https://t.me/A_S_4A"]
         ],
 ]
 
